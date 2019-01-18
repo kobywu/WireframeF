@@ -5,25 +5,27 @@ body {
 }
 
 /* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
-/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* Additionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
 /* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.gold {
+	background-color: #C5B358;
+}
 .row {
-	height: 35%;
+	height: 30%;
 	width: 100%;
 }
 .pic-holder {
 	display:flex;
-	height: 30%;
+	height: 40%;
 	width: 100%;
 }
 .pic{
 	width:calc(100%/3);
+	height:100%;
 }
-/* When possible, organize CSS classes in alphabetical order */
-.gold {
-	background-color: #C5B358;
-}
-
 .purple {
 	background-color: #DA70D6;
 }
+
+/* When possible, organize CSS classes in alphabetical order */
+
