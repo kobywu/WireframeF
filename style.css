@@ -29,3 +29,12 @@ body {
 
 /* When possible, organize CSS classes in alphabetical order */
 
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
